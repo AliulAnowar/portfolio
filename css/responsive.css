@@ -1,0 +1,106 @@
+@media(max-width: 1480px) {
+    .protfolio-section .portfolio-item,
+    .service-section .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .justify-content-between{
+        justify-content: space-between;
+        max-width: 1500px;
+    }
+
+}
+
+@media(max-width: 767px){
+    .contact-section .w-50,
+    .contact-section .contact-item,
+    .about-section .skills .Skill-item,
+    .home-section .home-text,
+    .about-section .about-img,
+    .about-section .about-info,
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px 15px;
+    }
+     .home-section .home-text{
+        
+         order: 2;
+
+     }
+
+     .home-section .home-text{
+         text-align: center;
+     }
+      .home-section.full-screen{
+          text-align: 100% 0;
+      }
+
+      .home-section.home-img.home-img{
+            margin-bottom: 40px;
+            max-width: 350px;
+      }
+       .effect-3 {
+           margin-left: -30%;
+
+       }
+        .effect-4 {
+            left: 15%;
+
+        }
+
+     .home-section .home-text h2{
+         margin-bottom: 0;
+         position: relative;
+     }
+     .home-section .home-text h1{
+         margin-top: 10px;
+     }
+
+     /* .home-section .home-text #text{
+         text-align: center;
+         position: relative;
+     } */
+
+
+.about-section .about-img{
+    padding-bottom: 30px;
+    ;
+}
+.about-section .timeline .timeline-item:nth-child(2n+1){
+    padding-right:15px;
+    text-align: left;
+    padding-left: 75px;
+}
+.about-section .timeline .timeline-item:nth-child(2n){
+    padding-left: 75px;
+}
+.about-section.timeline.about-section.timeline:befofe{
+    left: 35px;
+}
+.about-section .timeline .timeline-item:nth-child(2n +1) .icon{
+    right:auto;
+    left: -60px ;
+}
+.about-section .timeline .timeline-item:nth-child(2n) .icon{
+    right: auto;
+    left: -60px;
+     top: -11px;
+}
+ 
+}
+@media(max-width: 574px) {
+  .home-section.home-img.img-box {
+      max-width: 260px;
+
+  }
+.home-section .home-text h1{
+    font-size: 10px;
+}
+
+
+
+
+}
+
+
