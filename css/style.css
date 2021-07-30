@@ -902,6 +902,7 @@ padding-bottom: 90px;
 	padding: 30px;
 	border-radius: 5px;
 	position: relative;
+	text-align: left;
 }
 
 .about-section .timeline .timeline-item-inner:before{
