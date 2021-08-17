@@ -591,8 +591,13 @@
       <i class="fas fa-cog fa-spin"></i>
     </div>
     <div class="day-night tooltip s-icon outer-shadow hover-in-shawod">
-    <i class="fas fa-phone"></i>
-   <a href="tel:+88-018-298-7361"></a>
+    <i onClick="myFunction()" class="fas fa-phone"></i>
+    <a id="phone" href="tel:+88-018-298-7361"></a>
+     <script>
+      function myFunction() {
+       document.getElementById("phone").innerHTML = " ";
+      }
+      </script>
     </div>
     <h4>THEME COLORS</h4>
     <div class="colors">
