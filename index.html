@@ -552,17 +552,17 @@
       </div>
       <div class="row">
         <div class="contact-form">
-          <form>
+           <form onsubmit="return false">
             <div class="row">
               <div class="w-50">
                 <div class="input-group outer-shadow hover-in-shawod">
-                  <input type="text" placeholder="Name" class="input-control">
+                  <input type="text" name="name" placeholder=" enter your Name" class="input-control">
                 </div>
                 <div class="input-group outer-shadow hover-in-shawod">
-                  <input type="text" placeholder="E-Mail" class="input-control">
+                  <input type="text" name="email" placeholder="Enter your E-Mail" class="input-control">
                 </div>
                 <div class="input-group outer-shadow hover-in-shawod">
-                  <input type="text" placeholder="Subject" class="input-control">
+                  <input type="text" name="subject" placeholder="Subject" class="input-control">
                 </div>
               </div>
               <div class="w-50">
@@ -576,7 +576,7 @@
             <div class="row">
               <div class="submit-btn">
                 <a href="index.html" class="link-item btn-1 outer-shadow hover-in-shawod"><i class="fas fa-home"> Home</i></a>
-                <button type="submit" class="btn-1 outer-shadow hover-in-shawod">send message</button>
+                <button type="submit" id="button" class="btn-1 outer-shadow hover-in-shawod">send email</button>
               </div>
             </div>
           </form>
@@ -594,7 +594,7 @@
       <i class="fas fa-cog fa-spin"></i>
     </div>
     <div class="day-night tooltip s-icon outer-shadow hover-in-shawod">
-    <span class="tooltiptext">call me</span>
+    <span class="tooltiptext">call me </span>
     <a href="tel:+8801812987361"><i id="demo" onclick="myFunction()" class="fas fa-phone"></i></a>
       <script>
 function myFunction() {
@@ -609,6 +609,9 @@ function myFunction() {
       <span class="color-3" onclick="setActiveStyle('color-3')"></span>
     </div>
   </div>
+  
+  <script type="text/javascript" src="./js/emailsend.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!----- STYLE SWITCHER END----------->
 
