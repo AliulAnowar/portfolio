@@ -91,6 +91,9 @@
     left: -60px;
      top: -11px;
 }
+    :root{
+    --bg-black-100:rgba(43, 44, 47, 0.5);
+}
  
 }
 @media(max-width: 574px) {
