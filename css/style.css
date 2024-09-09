@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
+/* .......... progress bar  ..........*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 /* .......... Global style ..........*/
 
 /*---- Define Custom Css Variables---*/
@@ -29,7 +31,7 @@
 
 	body.dark{
 	--bg-black-900: #ffffff;
-	--bg-black-100: #353535;
+	
 	--bg-black-50: #2b2c2f;
 	--bg-opacity: rgba(43, 44, 47, 0.5);
 	--text-black-900: #ffffff;
@@ -137,6 +139,9 @@ img{
 .align-items-center{
 	align-items: center;
 }
+/* .align-items-left{
+	align-items: left;
+} */
 
 .btn-1{
 	padding: 10px 25px;
@@ -882,7 +887,7 @@ padding-bottom: 90px;
 
 
 .about-section .timeline .timeline-item{
-/*	background-color: red;*/
+	background-color: rgba(43, 44, 47, 0.5);
 	flex: 0 0 100%;
 	max-width: 100%;
 	padding: 0 15px;
@@ -910,7 +915,7 @@ padding-bottom: 90px;
 	position: absolute;
 	width: 30px;
 	height: 1px;
-	background-color: var(--bg-black-100);
+	background-color: var(--bg-black-900);
 	top: 37px;
 	z-index: -1;
 }
@@ -1194,6 +1199,7 @@ padding-bottom: 90px;
 	padding: 0 15px;
 }
 
+/*-------Progress  Section start-------- */
 
 
 /*-------CONTRACT  Section END-------- */
