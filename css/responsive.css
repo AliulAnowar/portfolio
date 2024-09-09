@@ -15,6 +15,8 @@
 
 }
 
+
+
 @media(max-width: 767px){
     .contact-section .w-50,
     .contact-section .contact-item,
@@ -89,9 +91,10 @@
 .about-section .timeline .timeline-item:nth-child(2n) .icon{
     right: auto;
     left: -60px;
-     top: -11px;
+    top: -11px;
+
 }
-    :root{
+:root{
     --bg-black-100:rgba(43, 44, 47, 0.5);
 }
  
