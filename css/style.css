@@ -159,6 +159,11 @@ img{
 	/*margin-right: 1px;*/
 }
 
+.btn-1.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 .btn-1:after{
 	border-radius: 30px;
 }
