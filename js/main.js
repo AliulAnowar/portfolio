@@ -79,7 +79,7 @@ fadeOutEffect();
 
 (() =>{
 	const textDisplay = document.getElementById('text2')
-const phrases = ['M&E', 'MIS', '.NET', 'NODE/REACT','SQL/Mysql']
+const phrases = ['SQL/Mysql','Python','Power BI','M&E', 'MIS','Next Js']
 let i = 0
 let j = 0 
 let currentPhrase = []
